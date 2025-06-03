@@ -1,0 +1,34 @@
+[33mcommit 6bb42e1402aa67a5d339aa6dadf6fd520a478efc[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: CodeCompleteMetal <193108057+CodeCompleteMetal@users.noreply.github.com>
+Date:   Sun Jan 26 00:00:46 2025 -0500
+
+    * Added new page Gram-Fruitcake-Cookies
+    * Changed up the nav links to look and function
+        with the other pages
+    * Changed the layout of the pages mainly spacing
+    
+    Overall really happy with my progress hope to do
+    more changes. Also like this message layout feels
+    like a patch note.
+
+[33mcommit a6167f94861f434d33b81fe737f69ef887ba9d4b[m
+Author: CodeCompleteMetal <193108057+CodeCompleteMetal@users.noreply.github.com>
+Date:   Sat Jan 25 23:25:06 2025 -0500
+
+    Finished the html of the Mandarin-Orange-Chicken.
+    html
+
+[33mcommit 7a9cdfddf3226c653a1e6343b245520d772b9414[m
+Author: CodeCompleteMetal <193108057+CodeCompleteMetal@users.noreply.github.com>
+Date:   Sat Jan 25 21:05:00 2025 -0500
+
+    Just coming back from a 2 week break. I know there
+    is supposed to be a method in order to do these
+    messages but I'll do it like this for now until
+    I learn
+
+[33mcommit ef4a9b33b00b1439c7c4ca433675abf52d4d458d[m
+Author: CodeCompleteMetal <193108057+CodeCompleteMetal@users.noreply.github.com>
+Date:   Sun Jan 12 02:40:18 2025 -0500
+
+    Initial commit
