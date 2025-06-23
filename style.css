@@ -1,0 +1,120 @@
+/* || RESET */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+/* || VARIABLES */
+
+:root{
+    /* COLORS */
+    --COLOR: #000;
+    --HEADER-COLOR: whitesmoke;
+    --HEADER-BGCOLOR: #ecf0f6;
+    --BGGRAD: linear-gradient(#001468, #b2c5f0);
+    --LINK-COLOR: #000;
+    --LINK-HOVER: #445c9a;
+    --LINK-ACTIVE: #8c8f98;
+
+    /* FONTS */
+
+    /* BORDERS */
+    --BORDER-COLOR: #5b5c63;
+    --BORDERS: 1px solid var(--BORDER-COLOR);
+}
+
+
+/* || UTILITY CLASSES */
+
+.nowrap {
+    white-space: nowrap;
+}
+
+.center {
+    text-align: center;
+}
+
+/* || GENERAL STYLES */
+
+html, body{
+    height: 100%;
+    background: var(--BGGRAD);
+    background-attachment: fixed;
+    scroll-behavior: smooth;
+}
+
+h2, h3{
+    margin-bottom: 23px;
+}
+
+a:any-link {
+    color: var(--LINK-COLOR);
+}
+
+a:hover, a:focus-visible{
+    color: var(--LINK-HOVER);
+}
+
+a:active{
+    color: var(--LINK-ACTIVE);
+}
+
+
+
+/* || BLOCKS */
+/* AKA components */
+
+/* || HEADER */
+
+.header{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: var(--HEADER-BGCOLOR);
+    color: var(--COLOR);
+    padding: 10px;
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: space-evenly;
+}
+
+
+
+
+/* || ELEMENTS */
+/* It is tied to the block example header_button or btn */
+
+/* HEADER */
+
+
+.header__ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding: 10px 0px;
+    border: var(--BORDERS);
+    gap: 10px;
+}
+
+
+
+
+/* || MODIFIERS */
+/* Incremental style changes */
+
+
+
+
+
+/* Blocks with modifiers */
+/* MUST have two dashes -- to indicate a modfication example with a block: .button--secondary{}*/
